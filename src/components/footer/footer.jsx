@@ -9,17 +9,17 @@ class Footer extends Component {
       <section className='footer-container'>
         <NavLink className='guide-item' to='/msite'>
           <div className='icon-changyonglogo40 icon-style'></div>
-          <span className='spec-text'>外卖</span>
-        </NavLink>
-        <NavLink className='guide-item' to='/technology'>
-          <div className='icon-zhinanzhen icon-style'></div>
-          <span>搜索</span>
-        </NavLink>
-        <NavLink className='guide-item' to='/technology'>
-          <div className='icon-dingdan icon-style'></div>
-          <span>订单</span>
+          <span className='spec-text'>btn1</span>
         </NavLink>
         <NavLink className='guide-item' to='/profile'>
+          <div className='icon-account icon-style'></div>
+          <span>btn2</span>
+        </NavLink>
+        <NavLink className='guide-item' to=''>
+          <div className='icon-changyonglogo40 icon-style'></div>
+          <span>当歌</span>
+        </NavLink>
+        <NavLink className='guide-item' to='/my'>
           <div className='icon-account icon-style'></div>
           <span>我的</span>
         </NavLink>
